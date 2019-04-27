@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 112.5%;
+}
+body {
+    font-size: 112.5%;
+    font-family: "Open Sans", sans-serif;
+    @include respond(tabLand) {
+        font-size: 106.5%;
+    }
+    @include respond(Phone) {
+        font-size: 100%;
+    }
+    @include respond(bigDesktop) {
+        font-size: 132.25%;
+    }
+    // padding: 1.5rem;
+
+    // @include respond(tabLand) {
+    //     padding: 0;
+    // }
+}

@@ -1,0 +1,20 @@
+.cta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px 2px #dcd4d4;
+    width: 50%;
+    padding: 3rem;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+
+    @include respond(tabLand) {
+        padding: 2rem;
+    }
+    @include respond(tabPort) {
+        width: 61%;
+    }
+}
